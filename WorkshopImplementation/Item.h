@@ -6,6 +6,7 @@ using namespace std;
 class Item
 {
 public:
+	Item();
 	Item(string title, string registration, int year);
 	~Item();
 

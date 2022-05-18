@@ -33,6 +33,18 @@
     <ClCompile Include="Boardgame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IMDBToISBNLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardGameToISBNLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISBNdbDetailsLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISBNDetailsLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="HoldManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -40,21 +52,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Patron.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ILibraryFineStrategy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BookFineStrategy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BoardGameFineStrategy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ToyFineStrategy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="OtherFineStrategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,6 +71,18 @@
     <ClInclude Include="Boardgame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ISBNdbDetailsLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISBNDetailsLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IMDBToISBNLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardGameToISBNLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="HoldManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -81,21 +90,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Patron.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ILibraryFineStrategy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BookFineStrategy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BoardGameFineStrategy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ToyFineStrategy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="OtherFineStrategy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

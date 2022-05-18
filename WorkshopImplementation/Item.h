@@ -2,6 +2,8 @@
 #include <string>
 #include<list>
 
+#include "HoldManager.h"
+
 using namespace std;
 class Item
 {

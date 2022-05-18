@@ -15,14 +15,9 @@ public:
 	int removeHold(Hold* hold);
 
 private:
-	Item* item;
 	list<Hold*> holds;
 	Hold* findHighestPriorityHold();
 
 
 
-};
-
-class HoldManager
-{
 };

@@ -16,6 +16,6 @@ public:
 	int year;
 
 private:
-
+	HoldManager holdManager;
 };
 

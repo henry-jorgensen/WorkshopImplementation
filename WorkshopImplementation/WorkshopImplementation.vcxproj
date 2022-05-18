@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Boardgame.cpp" />
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="DVD.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="WorkshopImplementation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Boardgame.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="DVD.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Magazine.h" />
   </ItemGroup>

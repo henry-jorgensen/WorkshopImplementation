@@ -140,32 +140,42 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Boardgame.cpp" />
+    <ClCompile Include="BoardGameFineStrategy.cpp" />
     <ClCompile Include="BoardGameToISBNLoader.cpp" />
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="BookFineStrategy.cpp" />
     <ClCompile Include="DVD.cpp" />
     <ClCompile Include="Hold.cpp" />
     <ClCompile Include="HoldManager.cpp" />
+    <ClCompile Include="ILibraryFineStrategy.cpp" />
     <ClCompile Include="IMDBToISBNLoader.cpp" />
     <ClCompile Include="ISBNdbDetailsLoader.cpp" />
     <ClCompile Include="ISBNDetailsLoader.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magazine.cpp" />
+    <ClCompile Include="OtherFineStrategy.cpp" />
     <ClCompile Include="Patron.cpp" />
+    <ClCompile Include="ToyFineStrategy.cpp" />
     <ClCompile Include="WorkshopImplementation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boardgame.h" />
+    <ClInclude Include="BoardGameFineStrategy.h" />
     <ClInclude Include="BoardGameToISBNLoader.h" />
     <ClInclude Include="Book.h" />
+    <ClInclude Include="BookFineStrategy.h" />
     <ClInclude Include="DVD.h" />
     <ClInclude Include="Hold.h" />
     <ClInclude Include="HoldManager.h" />
+    <ClInclude Include="ILibraryFineStrategy.h" />
     <ClInclude Include="IMDBToISBNLoader.h" />
     <ClInclude Include="ISBNdbDetailsLoader.h" />
     <ClInclude Include="ISBNDetailsLoader.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Magazine.h" />
+    <ClInclude Include="OtherFineStrategy.h" />
     <ClInclude Include="Patron.h" />
+    <ClInclude Include="ToyFineStrategy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
